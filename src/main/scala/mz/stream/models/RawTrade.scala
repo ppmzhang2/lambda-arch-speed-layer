@@ -1,3 +1,4 @@
 package mz.stream.models
 
-case class RawTrade(data: Array[RawTradeData], `type`: String)
+case class RawTrade(price: String, symbol: String, millisecond: String,
+                    volume: String)

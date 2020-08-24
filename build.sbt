@@ -19,4 +19,5 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.30",
   "org.spark-project.spark" % "unused" % "1.0.0",
   "org.xerial.snappy" % "snappy-java" % "1.1.7.5",
+  "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.11.2",
 )
